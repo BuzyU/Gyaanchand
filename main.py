@@ -6,9 +6,6 @@ from agent_core import handle_query
 
 st.set_page_config(page_title="Gyaanchand", layout="wide")
 
-st.title("😀 Gyaanchand: Universal AI Assistant")
-st.markdown("Ask me to code, simulate, or generate tests!")
-
 # Chat input (for user prompt)
 user_input = st.chat_input("Type your question here...")
 
